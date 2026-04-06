@@ -8,13 +8,23 @@
 
 需要 [Claude Code](https://claude.ai/code)。
 
+**方式一：一键安装**（创建全局 `16voices` 命令）
+
 ```bash
 git clone https://github.com/marcleecheng/mbti16voices.git
 cd mbti16voices
 chmod +x install.sh && ./install.sh
 ```
 
-之后直接输入 `16voices` 即可启动。
+之后任意目录输入 `16voices` 即可启动。
+
+**方式二：直接运行**
+
+```bash
+git clone https://github.com/marcleecheng/mbti16voices.git
+cd mbti16voices
+claude --plugin-dir .
+```
 
 ## 玩法
 
